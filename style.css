@@ -1,35 +1,70 @@
 .grid {
     text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    
 }
 
 .topleft {
     background-color: aquamarine;
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 40px;
 }
 
 .topmiddle {
-    background-color: aquamarine;
+    background-color: darkgoldenrod;
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 40px;
 }
 
 .topright {
-    background-color: aquamarine;
+    background-color: purple;
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 40px;
 }
 
 .middleleft {
-    background-color: aquamarine;
+    background-color: darkred;
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 40px;
 }
 
 .middleright {
-    background-color: aquamarine;
+    background-color: cadetblue;
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 40px;
 }
 
 .lowerleft {
-    background-color: aquamarine;
+    background-color: pink;
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 40px;
 }
 
 .lowermiddle {
-    background-color: aquamarine;
+    background-color: green;
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 40px;
 }
 
 .lowerright {
-    background-color: aquamarine;
+    background-color: slategray;
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 40px;
 }
