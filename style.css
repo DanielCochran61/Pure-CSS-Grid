@@ -1,78 +1,16 @@
-.grid {
-    text-decoration: none;
-    text-align: center;
-    list-style-type: none;
-    
-}
-
-.topleft {
-    background-color: aquamarine;
-    float: left;
-    height: 80px;
-    width: 80px;
-    padding: 40px;
-    margin: 80px;
-}
-
-.topmiddle {
-    background-color: darkgoldenrod;
-    float: left;
-    height: 80px;
-    width: 80px;
-    padding: 40px;
-    margin: 80px;
-}
-
-.topright {
-    background-color: purple;
-    float: left;
-    height: 80px;
-    width: 80px;
-    padding: 40px;
-    margin: 80px;
-}
-
-.middleleft {
-    background-color: darkred;
-    float: left;
-    height: 80px;
-    width: 80px;
-    padding: 40px;
-    margin: 80px;
-}
-
-.middleright {
+.grid-container {
+    display: grid;
+    height: 600px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
     background-color: cadetblue;
-    float: left;
-    height: 80px;
-    width: 80px;
-    padding: 40px;
-    margin: 80px;
-}
-
-.lowerleft {
-    background-color: pink;
-    float: left;
-    height: 80px;
-    width: 80px;
-    padding: 40px;
-    margin: 80px;
-}
-
-.lowermiddle {
-    background-color: green;
-    float: left;
-    height: 80px;
-    width: 80px;
-    padding: 40px;
-    margin: 80px;
-}
-
-.lowerright {
-    background-color: slategray;
-    float: left;
-    height: 80px;
-    width: 80px;
-    padding: 40px;
-    margin: 80px;
-}
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
